@@ -28,5 +28,3 @@ for (var i = 0; i < splitWord.length; i++){
 }
 
 console.log(findLongestWord("It may contain information that is privileged and confidential."))
-
-//console.log("".length)
