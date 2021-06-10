@@ -24,11 +24,11 @@ function findVowelsCount(str){
   var vowelCount = 0;
 
 for (let numberOfVowels = 0; numberOfVowels < arrayOfLetters.length; numberOfVowels++){
-  if (arrayOfVowels.includes(arrayOfLetters[numberOfVowels])){
+  if (arrayOfVowels.includes((arrayOfLetters[numberOfVowels]).toLowerCase())){
     vowelCount++
   };
 }
 
   return vowelCount;
 }
-console.log(findVowelsCount("it may contain information that is privileged and confidential."))
+console.log(findVowelsCount("It may contain information that is privileged and confidential."))
