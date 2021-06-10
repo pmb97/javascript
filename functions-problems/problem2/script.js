@@ -1,6 +1,5 @@
-//Write a JavaScript function that accepts a string as a parameter and
-//find the longest word within the string.
-
+//Write a JavaScript function that accepts a string as a parameter
+//and counts the number of vowels within the string.
 
 /*
 
@@ -22,7 +21,7 @@ function findVowelsCount(str){
 
   var arrayOfLetters = str.split("");
   var arrayOfVowels = ["a", "e", "i", "o", "u"];
-  var vowelCount = 0
+  var vowelCount = 0;
 
 for (let numberOfVowels = 0; numberOfVowels < arrayOfLetters.length; numberOfVowels++){
   if (arrayOfVowels.includes(arrayOfLetters[numberOfVowels])){
